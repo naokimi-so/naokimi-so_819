@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HirokiNoda</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+</head>
+<body>
+  <header>
+    <script type="text/javascript">
+        $(function(){
+            $('#menu li').hover(function(){
+                $("ul:not(:animated)", this).slideDown();
+            }, function(){
+                $("ul.child",this).slideUp();
+            });
+        });
+    </script>
+      <ul id="menu">
+        <li><a href="index.html">Ｔｏｐ</a></li>
+        <li><a href="history.html">Ｈｉｓｔｏｒｙ</a></li>
+        <li><a href="profile.html">Ｐｒｏｆｉｌｅ</a></li>
+        <li>Ｔｅａｍ
+          <ul class="child">
+            <li><a href="noda.html">Hiroki Noda</a></li>
+            <li><a href="nonaka.html">Reika Nonaka</a></li>
+          </ul>
+      </ul>
+  </header>
+
+    <div id="noda">
+
+    <center><img src="img/kiti.jpeg" alt ="noda"></center>
+<ul id="nochan">
+<li>name</li>
+    <font size="5">野田　広樹
+<li>age</li>
+    ２１歳
+<li>character</li>
+    キチガイ</font>
+</ul>
+</div>
+</body>
+</html>

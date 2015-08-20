@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+</head>
+<body id= "pro">
+  <div id="wrapper">
+    <div id="tag">
+      <script type="text/javascript">
+          $(function(){
+              $('#menu li').hover(function(){
+                  $("ul:not(:animated)", this).slideDown();
+              }, function(){
+                  $("ul.child",this).slideUp();
+              });
+          });
+      </script>
+      <script type="text/javascript">
+          $(function(){
+              $('.prof li').hover(function(){
+                  $("ul:not(:animated)", this).slideDown();
+              }, function(){
+                  $("ul.chpro",this).slideUp();
+              });
+          });
+      </script>
+        <ul id="menu">
+          <li><a href="index.html">Ｔｏｐ</a></li>
+          <li><a href="history.html">Ｈｉｓｔｏｒｙ</a></li>
+          <li><a href="profile.html">Ｐｒｏｆｉｌｅ</a></li>
+          <li>Ｔｅａｍ
+            <ul class="child">
+              <li><a href="noda.html">Hiroki Noda</a></li>
+              <li><a href="nonaka.html">Reika Nonaka</a></li>
+            </ul>
+        </ul>
+      </div>
+      <div id ="left">
+        <h1>Who am I?</h1>
+        <center><img src="img/who.jpg" height = "150px" width="150px" alt="who?"></center>
+<ul class="prof">
+  <li>name</li>
+  <ul class="chpro">島井　尚輝</ul>
+  <li>age</li>
+  <ul class="chpro">２１歳</ul>
+  <li>bloodtype</li>
+  <ul class="chpro">Ａ型</ul>
+  <li>birthday</li>
+  <ul class="chpro">1994/7/18</ul>
+  <li>favorite
+    <ul class="chpro">
+      <li>food:<font color=white>オムライス　梨</font></li>
+      <li>singer:<font color=white>backnumber  Silent Siren</font></li>
+      <li>color:<font color=white>モノトーン</font></li>
+      <li>study:<font color=white>数学　量子論</font></li>
+      <li>alcohol:<font color=white>シャンディガフ　梅酒</font></li>
+    </ul>
+  </li>
+  <li>hobby</li>
+  <ul class="chpro">読書　ドライブ　音楽
+</ul>
+      </div>
+      <div id="light">
+
+      </div>
+    </div>
+</body>
+</html>

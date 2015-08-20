@@ -1,0 +1,110 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ul#menu li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    width: 250px;
+    background-color: #555555;
+    display: block;
+}
+ul#menu li a{
+    color:#ffffff;
+}
+ul.child{
+        display: none;
+        position: absolute;
+        margin-left: -5px;
+        padding: 0;
+}
+ul.child li a{
+    padding: 5px 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+}
+li a:hover{
+    background: #ff0000;
+}
+
+div#left{
+  float:left;
+  background-color: #BDBDBD;
+  width:20%;
+  height:600px;
+  margin:5px;
+ display:block;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body#pro{
+background-color: #A4A4A4;
+background-image: url(../img/city.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+body#top{
+background-color: #A4A4A4;
+background-image: url(../img/mono.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+body#his{
+background-color: #E3F6CE;
+background-image: url(../img/school.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+ul.prof li{
+  color:#585858;
+  list-style-position: inside;
+  list-style: square;
+  margin-left: 20px;
+}
+div#about p{
+  font-size: 200px;
+  font-family: Times;
+  margin-top: 100px;
+}
+
+div#noda{
+  background-color: #BDBDBD;
+  width:80%;
+  height:800px;
+  margin:0 auto;
+ display:block;
+margin-top: 5px;
+}
+
+ul#nochan li{
+  font-size: 40px;
+  font-family: fantasy;
+  margin-left:60px;
+  color:black;
+  list-style-image: url("../img/noda.jpg");
+}

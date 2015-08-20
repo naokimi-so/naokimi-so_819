@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html id="top">
     <head>
-
-        <!-- ブラウザのタブに表示されるタイトル -->
-        <title>自己紹介ページ</title>
-
-        <!-- 文字コードの指定 -->
+        <title>Top</title>
         <meta charset="utf-8">
-
-        <!-- BootstrapのソースをWebから取得 -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    </head>
-
-    <body>
-        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="./js/index.js"></script>
-
-        <div class="container">
-            <h1>自己紹介ページ</h1>
-        </div> <!-- div container -->
-    </body>
+    </head>
+  <body id="top">
+    <div id="wrapper">
+      <div id="tag">
+        <script type="text/javascript">
+            $(function(){
+                $('#menu li').hover(function(){
+                    $("ul:not(:animated)", this).slideDown();
+                }, function(){
+                    $("ul.child",this).slideUp();
+                });
+            });
+        </script>
+          </div>
+          <ul id="menu">
+            <li><a href="index.html">Ｔｏｐ</a></li>
+            <li><a href="history.html">Ｈｉｓｔｏｒｙ</a></li>
+            <li><a href="profile.html">Ｐｒｏｆｉｌｅ</a></li>
+            <li>Ｔｅａｍ
+              <ul class="child">
+                <li><a href="noda.html">Hiroki Noda</a></li>
+                <li><a href="nonaka.html">Reika Nonaka</a></li>
+              </ul>
+          </ul>
+      </div>
+      <div id ="about" align="center">
+      <p>About me</p>
+    </div>
+  </body>
 </html>
-
